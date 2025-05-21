@@ -1,0 +1,592 @@
+<!doctype html>
+<html lang="en" dir="ltr">
+
+<head>
+    <meta charset="utf-8" />
+    <title>SIA - ZAMIATIN, Software development and IT consultations</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keywords" content="Saas, Software, multi-uses, HTML, Clean, Modern" />
+    <meta name="author" content="zamiatinsia@proton.me" />
+    <meta name="email" content="zamiatinsia@proton.me" />
+
+    <!-- favicon -->
+
+    <!-- Css -->
+    <link href="/assets/libs/tiny-slider/tiny-slider.css" rel="stylesheet">
+    <link href="/assets/libs/tobii/css/tobii.min.css" rel="stylesheet">
+    <!-- Bootstrap Css -->
+    <link href="/assets/css/bootstrap.min.css" class="theme-opt" rel="stylesheet" type="text/css" />
+    <!-- Icons Css -->
+    <link href="/assets/css/icons.min.css" rel="stylesheet" type="text/css" />
+    <link href="/assets/libs/@iconscout/unicons/css/line.css" type="text/css" rel="stylesheet" />
+    <!-- Style Css-->
+    <link href="/assets/css/style.min.css" class="theme-opt" rel="stylesheet" type="text/css" />
+
+</head>
+
+<body>
+<!-- Loader -->
+<!-- <div id="preloader">
+    <div id="status">
+        <div class="spinner">
+            <div class="double-bounce1"></div>
+            <div class="double-bounce2"></div>
+        </div>
+    </div>
+</div> -->
+<!-- Loader -->
+
+<!-- Navbar STart -->
+<header id="topnav" class="defaultscroll sticky">
+    <div class="container">
+        <!-- Logo container-->
+        <a class="logo" href="/index.html">
+                    <span class="logo-light-mode" style="color: whitesmoke;">
+                     <!--    <img src="assets/images/logo-dark.png" class="l-dark" height="24" alt="">
+                        <img src="assets/images/logo-light.png" class="l-light" height="24" alt=""> -->
+                        SIA ZAMIATIN
+                    </span>
+        </a>
+
+        <div class="menu-extras">
+            <div class="menu-item">
+                <!-- Mobile menu toggle-->
+                <a class="navbar-toggle" id="isToggle" onclick="toggleMenu()">
+                    <div class="lines">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </div>
+                </a>
+                <!-- End mobile menu toggle-->
+            </div>
+        </div>
+
+        <!--Login button Start-->
+        <!--    <ul class="buy-button list-inline mb-0">
+            <li class="list-inline-item mb-0">
+                <div class="dropdown">
+                    <button type="button" class="btn btn-link text-decoration-none dropdown-toggle p-0 pe-2" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        <i class="uil uil-search text-muted"></i>
+                    </button>
+                    <div class="dropdown-menu dd-menu dropdown-menu-end bg-white shadow rounded border-0 mt-3 py-0" style="width: 300px;">
+                        <form>
+                            <input type="text" id="text" name="name" class="form-control border bg-white" placeholder="Search...">
+                        </form>
+                    </div>
+                 </div>
+            </li>
+
+            <li class="list-inline-item mb-0">
+                <a href="javascript:void(0)" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight" aria-controls="offcanvasRight">
+                    <div class="btn btn-icon btn-pills btn-primary"><i data-feather="settings" class="fea icon-sm"></i></div>
+                </a>
+            </li>
+
+            <li class="list-inline-item ps-1 mb-0">
+                <a href="https://1.envato.market/landrick" target="_blank">
+                    <div class="btn btn-icon btn-pills btn-primary"><i data-feather="shopping-cart" class="fea icon-sm"></i></div>
+                </a>
+            </li>
+        </ul>
+        -->
+        <div id="navigation">
+            <!-- Navigation Menu-->
+            <ul class="navigation-menu nav-light">
+                <li><a href="/index.html" class="sub-menu-item">Home</a></li>
+                <li><a href="/about-us.html" class="sub-menu-item">About us</a></li>
+                <li><a href="/architect-vacancy.html" class="sub-menu-item">Vacancies</a></li>
+
+            </ul><!--end navigation menu-->
+        </div><!--end navigation-->
+    </div><!--end container-->
+</header><!--end header-->
+<!-- Navbar End -->
+
+<!-- Hero Start -->
+<section class="bg-half-170 d-table w-100 it-home" style="background: url('assets/images/it/bg1.jpg') center center;">
+    <div class="bg-overlay"></div>
+    <div class="container">
+        <div class="row align-items-center">
+            <div class="col-lg-7 col-md-6 col-12">
+                <div class="title-heading">
+                    <h6 class="text-white-50">IT Software & Design & App development & Software architecture</h6>
+                    <h1 class="fw-bold text-white title-dark mt-2 mb-3">Advanced Innovative <br> IT Solutions.</h1>
+                    <p class="para-desc text-white-50">We are providing various solutions for our customers and business clients.</p>
+                    <div class="mt-4 pt-2">
+                        <a href="tel:+37120170066" class="btn btn-primary m-1"><i class="uil uil-phone"></i> Get in
+                            touch</a>
+                        <!--  <a href="#!" data-type="youtube" data-id="yba7hPeTSjk" class="btn btn-icon btn-pills btn-primary m-1 lightbox"><i data-feather="video" class="icons"></i></a><small class="fw-bold text-uppercase text-white-50 align-middle ms-1">Watch Now</small> -->
+                    </div>
+                </div>
+            </div><!--end col-->
+
+            <div class="col-lg-5 col-md-6 mt-4 pt-2 mt-sm-0 pt-sm-0">
+                <div class="card shadow rounded border-0 ms-lg-5">
+                    <div class="card-body">
+                        <h5 class="card-title fw-bold">Register Your Appointment</h5>
+                        <h6>We here to help you 24/7 with experts</h6>
+
+                        <form class="login-form">
+                            <div class="row">
+                                <div class="col-md-12">
+                                    <div class="mb-3">
+                                        <label class="form-label">First name <span class="text-danger">*</span></label>
+                                        <div class="form-icon position-relative">
+                                            <i data-feather="user" class="fea icon-sm icons"></i>
+                                            <input type="text" class="form-control ps-5" placeholder="First Name"
+                                                   name="s" required="">
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-12">
+                                    <div class="mb-3">
+                                        <label class="form-label">Your Email <span class="text-danger">*</span></label>
+                                        <div class="form-icon position-relative">
+                                            <i data-feather="mail" class="fea icon-sm icons"></i>
+                                            <input type="email" class="form-control ps-5" placeholder="Email"
+                                                   name="email" required="">
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-12">
+                                    <div class="mb-3">
+                                        <label class="form-label">Phone no. <span class="text-danger">*</span></label>
+                                        <div class="form-icon position-relative">
+                                            <i data-feather="phone" class="fea icon-sm icons"></i>
+                                            <input type="number" name="number" class="form-control ps-5"
+                                                   placeholder="Phone no." required="">
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-12">
+                                    <div class="form-check mb-3">
+                                        <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                                        <label class="form-check-label" for="flexCheckDefault">
+                                            I Accept <a href="#" class="text-primary">Terms And Condition</a>
+                                        </label>
+                                    </div>
+                                </div>
+                                <div class="col-md-12">
+                                    <div class="d-grid">
+                                        <button class="btn btn-primary">Register</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div><!--end col-->
+        </div><!--end row-->
+    </div> <!--end container-->
+</section><!--end section-->
+<!-- End Hero -->
+
+<!-- Start Features -->
+<section class="py-4 bg-light">
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-lg-3 col-md-6 col-12">
+                <div class="d-flex features feature-primary pt-4 pb-4">
+                    <div class="icon text-center rounded-circle text-primary me-3 h5 mb-0">
+                        <i class="uil uil-analytics text-primary"></i>
+                    </div>
+                    <div class="flex-1">
+                        <h4 class="title">Data Analytics</h4>
+                        <p class="text-muted para mb-0">We can provide data analytics service for your product.</p>
+                    </div>
+                </div>
+            </div><!--end col-->
+
+            <div class="col-lg-3 col-md-6 col-12">
+                <div class="d-flex features feature-primary pt-4 pb-4">
+                    <div class="icon text-center rounded-circle text-primary me-3 h5 mb-0">
+                        <i class="uil uil-airplay text-primary"></i>
+                    </div>
+                    <div class="flex-1">
+                        <h4 class="title">Web Development</h4>
+                        <p class="text-muted para mb-0">Developing complex web services and web apps.</p>
+                    </div>
+                </div>
+            </div><!--end col-->
+
+            <div class="col-lg-3 col-md-6 col-12">
+                <div class="d-flex features feature-primary pt-4 pb-4">
+                    <div class="icon text-center rounded-circle text-primary me-3 h5 mb-0">
+                        <i class="uil uil-clapper-board text-primary"></i>
+                    </div>
+                    <div class="flex-1">
+                        <h4 class="title">QA & Testing</h4>
+                        <p class="text-muted para mb-0">Various tools and services for testing your project.</p>
+                    </div>
+                </div>
+            </div><!--end col-->
+
+            <div class="col-lg-3 col-md-6 col-12">
+                <div class="d-flex features feature-primary pt-4 pb-4">
+                    <div class="icon text-center rounded-circle text-primary me-3 h5 mb-0">
+                        <i class="uil uil-users-alt text-primary"></i>
+                    </div>
+                    <div class="flex-1">
+                        <h4 class="title">Dedicated Team</h4>
+                        <p class="text-muted para mb-0">All out team are strong and highly motivated professionals.</p>
+                    </div>
+                </div>
+            </div><!--end col-->
+        </div><!--end row-->
+    </div><!--end container-->
+</section><!--end section-->
+<!-- End Features -->
+
+<!-- Start -->
+<section class="section">
+    <div class="container">
+        <div class="row align-items-center">
+            <div class="col-lg-6 col-md-6">
+                <div class="row align-items-center">
+                    <div class="col-lg-6 col-6 mt-4 mt-lg-0 pt-2 pt-lg-0">
+                        <div class="card work-container work-primary work-modern overflow-hidden rounded border-0 shadow-md">
+                            <div class="card-body p-0">
+                                <img src="/assets/images/new/top1.webp" class="img-fluid" alt="work-image">
+                                <div class="overlay-work"></div>
+                                <div class="content">
+                                    <a href="javascript:void(0)" class="title text-white d-block fw-bold">Web
+                                        Development</a>
+                                    <small class="text-white-50">IT & Software</small>
+                                </div>
+                            </div>
+                        </div>
+                    </div><!--end col-->
+
+                    <div class="col-lg-6 col-6">
+                        <div class="row">
+                            <div class="col-lg-12 col-md-12 mt-4 mt-lg-0 pt-2 pt-lg-0">
+                                <div class="card work-container work-primary work-modern overflow-hidden rounded border-0 shadow-md">
+                                    <div class="card-body p-0">
+                                        <img src="assets/images/new/IT-Solutions.jpg" class="img-fluid"
+                                             alt="work-image">
+                                        <div class="overlay-work"></div>
+                                        <div class="content">
+                                            <a href="javascript:void(0)" class="title text-white d-block fw-bold">Software architecture</a>
+                                            <small class="text-white-50">Engineering</small>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div><!--end col-->
+
+                            <div class="col-lg-12 col-md-12 mt-4 pt-2">
+                                <div class="card work-container work-primary work-modern overflow-hidden rounded border-0 shadow-md">
+                                    <div class="card-body p-0">
+                                        <img src="assets/images/new/is-820219790-640x360_tcm53-49149.jpg" class="img-fluid"
+                                             alt="work-image">
+                                        <div class="overlay-work"></div>
+                                        <div class="content">
+                                            <a href="javascript:void(0)" class="title text-white d-block fw-bold">Application development</a>
+                                            <small class="text-white-50">C.A.</small>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div><!--end col-->
+                        </div><!--end row-->
+                    </div><!--end col-->
+                </div><!--end row-->
+            </div><!--end col-->
+
+            <div class="col-lg-6 col-md-6 mt-4 mt-lg-0 pt- pt-lg-0">
+                <div class="ms-lg-4">
+                    <div class="section-title">
+                        <span class="badge bg-soft-primary rounded-pill fw-bold">About us</span>
+                        <h4 class="title mb-4 mt-3">IT Solutions for You Business</h4>
+                        <p class="text-muted para-desc">Start working with our <span
+                                class="text-primary fw-bold">SIA</span> that can provide everything you need to
+                            generate awareness, drive traffic, connect.</p>
+                        <p class="text-muted para-desc mb-0">We architect, implement, manage and secure IT solutions that help you achieve your most ambitious goals.
+                            We offer breadth and depth — combining deep industry expertise and technical skills to connect you to the right IT solutions.
+                            With one strategic partner, you’ll get guidance at any stage of your IT transformation journey.
+                        </p>
+                    </div>
+
+                    <div class="d-flex mt-4 pt-2">
+                        <i class="uil uil-bullseye h5 text-primary"></i>
+                        <div class="flex-1 ms-2">
+                            <h5>Achieving better business outcomes takes Insight.​</h5>
+                            <p class="mb-0 text-muted">We’ll align your business with the right technology and solutions to modernize, compete and grow. Together, let’s accelerate tomorrow.</p>
+                        </div>
+                    </div>
+
+                    <div class="d-flex mt-4 pt-2">
+                        <i class="uil uil-create-dashboard h5 text-primary"></i>
+                        <div class="flex-1 ms-2">
+                            <h5>Make your next move.​</h5>
+                            <p class="mb-0 text-muted">Turn ideas into powerful business outcomes quickly and smoothly. Our solution architects and technical experts are ready to help you achieve more with our help.</p>
+                        </div>
+                    </div>
+
+                    <div class="mt-4 pt-2">
+                        <a href="/about-us.html" target="_blank" class="btn btn-primary m-1">Read More
+                            <i class="uil uil-angle-right-b align-middle"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div><!--end row-->
+    </div><!--end container-->
+
+    <div class="container mt-100 mt-60">
+        <div class="row justify-content-center">
+            <div class="col-12 text-center">
+                <div class="section-title mb-4 pb-2">
+                    <h4 class="title mb-4">We Provide IT & Business Solutions</h4>
+                    <p class="text-muted para-desc mx-auto mb-0">Start working with <span class="text-primary fw-bold">us</span>
+                        that can provide everything you need to generate awareness, drive traffic, connect.</p>
+                </div>
+            </div><!--end col-->
+        </div><!--end row-->
+
+        <div class="row">
+            <div class="col-lg-4 col-md-6 mt-4 pt-2">
+                <div class="d-flex features feature-primary key-feature align-items-center p-3 rounded-pill shadow">
+                    <div class="icon text-center rounded-circle me-3">
+                        <i data-feather="monitor" class="fea icon-ex-md"></i>
+                    </div>
+                    <div class="flex-1">
+                        <h4 class="title mb-0">Innovative Thinking</h4>
+                    </div>
+                </div>
+            </div><!--end col-->
+
+            <div class="col-lg-4 col-md-6 mt-4 pt-2">
+                <div class="d-flex features feature-primary key-feature align-items-center p-3 rounded-pill shadow">
+                    <div class="icon text-center rounded-circle me-3">
+                        <i data-feather="heart" class="fea icon-ex-md"></i>
+                    </div>
+                    <div class="flex-1">
+                        <h4 class="title mb-0">Technology</h4>
+                    </div>
+                </div>
+            </div><!--end col-->
+
+            <div class="col-lg-4 col-md-6 mt-4 pt-2">
+                <div class="d-flex features feature-primary key-feature align-items-center p-3 rounded-pill shadow">
+                    <div class="icon text-center rounded-circle me-3">
+                        <i data-feather="eye" class="fea icon-ex-md"></i>
+                    </div>
+                    <div class="flex-1">
+                        <h4 class="title mb-0">Software Development</h4>
+                    </div>
+                </div>
+            </div><!--end col-->
+
+            <div class="col-lg-4 col-md-6 mt-4 pt-2">
+                <div class="d-flex features feature-primary key-feature align-items-center p-3 rounded-pill shadow">
+                    <div class="icon text-center rounded-circle me-3">
+                        <i data-feather="bold" class="fea icon-ex-md"></i>
+                    </div>
+                    <div class="flex-1">
+                        <h4 class="title mb-0">Business Idea</h4>
+                    </div>
+                </div>
+            </div><!--end col-->
+
+            <div class="col-lg-4 col-md-6 mt-4 pt-2">
+                <div class="d-flex features feature-primary key-feature align-items-center p-3 rounded-pill shadow">
+                    <div class="icon text-center rounded-circle me-3">
+                        <i data-feather="feather" class="fea icon-ex-md"></i>
+                    </div>
+                    <div class="flex-1">
+                        <h4 class="title mb-0">Content Strategy</h4>
+                    </div>
+                </div>
+            </div><!--end col-->
+
+            <div class="col-lg-4 col-md-6 mt-4 pt-2">
+                <div class="d-flex features feature-primary key-feature align-items-center p-3 rounded-pill shadow">
+                    <div class="icon text-center rounded-circle me-3">
+                        <i data-feather="code" class="fea icon-ex-md"></i>
+                    </div>
+                    <div class="flex-1">
+                        <h4 class="title mb-0">Visual Interface</h4>
+                    </div>
+                </div>
+            </div><!--end col-->
+
+            <div class="col-lg-4 col-md-6 mt-4 pt-2">
+                <div class="d-flex features feature-primary key-feature align-items-center p-3 rounded-pill shadow">
+                    <div class="icon text-center rounded-circle me-3">
+                        <i data-feather="user-check" class="fea icon-ex-md"></i>
+                    </div>
+                    <div class="flex-1">
+                        <h4 class="title mb-0">Time Management</h4>
+                    </div>
+                </div>
+            </div><!--end col-->
+
+            <div class="col-lg-4 col-md-6 mt-4 pt-2">
+                <div class="d-flex features feature-primary key-feature align-items-center p-3 rounded-pill shadow">
+                    <div class="icon text-center rounded-circle me-3">
+                        <i data-feather="git-merge" class="fea icon-ex-md"></i>
+                    </div>
+                    <div class="flex-1">
+                        <h4 class="title mb-0">Faster Enrollments</h4>
+                    </div>
+                </div>
+            </div><!--end col-->
+
+            <div class="col-lg-4 col-md-6 mt-4 pt-2">
+                <div class="d-flex features feature-primary key-feature align-items-center p-3 rounded-pill shadow">
+                    <div class="icon text-center rounded-circle me-3">
+                        <i data-feather="settings" class="fea icon-ex-md"></i>
+                    </div>
+                    <div class="flex-1">
+                        <h4 class="title mb-0">Work Dedication</h4>
+                    </div>
+                </div>
+            </div><!--end col-->
+
+            <div class="col-12 mt-4 pt-2 text-center">
+                <!-- <a href="javascript:void(0)" class="btn btn-primary">See More <i class="uil uil-angle-right"></i></a>  -->
+            </div><!--end col-->
+        </div><!--end row-->
+    </div><!--end container-->
+</section><!--end section-->
+<!-- End -->
+
+<!-- Footer Start -->
+<footer class="footer">
+    <div class="container">
+        <div class="row">
+            <div class="col-12">
+                <div class="footer-py-60">
+                    <div class="row">
+                        <div class="col-lg-4 col-12 mb-0 mb-md-4 pb-0 pb-md-2">
+                            <a class="logo" href="index.html">
+                    <span class="logo-light-mode" style="color: whitesmoke;">
+                     <!--    <img src="assets/images/logo-dark.png" class="l-dark" height="24" alt="">
+                        <img src="assets/images/logo-light.png" class="l-light" height="24" alt=""> -->
+                        SIA ZAMIATIN
+                    </span>
+                            </a>
+                            <p class="mt-4">Whether you’re a one-man operation or a full-fledged IT team, you need to be able to provide timely support
+                                for reported issues; and having the right small business IT solutions is key in making your work easier.</p>
+                            <ul class="list-unstyled social-icon foot-social-icon mb-0 mt-4">
+                                <li class="list-inline-item"><a href="javascript:void(0)" class="rounded"><i
+                                        data-feather="facebook" class="fea icon-sm fea-social"></i></a></li>
+                                <li class="list-inline-item"><a href="javascript:void(0)" class="rounded"><i
+                                        data-feather="instagram" class="fea icon-sm fea-social"></i></a></li>
+                                <li class="list-inline-item"><a href="javascript:void(0)" class="rounded"><i
+                                        data-feather="twitter" class="fea icon-sm fea-social"></i></a></li>
+                                <li class="list-inline-item"><a href="javascript:void(0)" class="rounded"><i
+                                        data-feather="linkedin" class="fea icon-sm fea-social"></i></a></li>
+                            </ul><!--end icon-->
+                        </div><!--end col-->
+
+                        <div class="col-lg-2 col-md-4 col-12 mt-4 mt-sm-0 pt-2 pt-sm-0">
+                            <h5 class="footer-head">Company</h5>
+                            <ul class="list-unstyled footer-list mt-4">
+                                <li><a href="/about-us.html" class="text-foot"><i
+                                        class="uil uil-angle-right-b me-1"></i> About us</a></li>
+                                <li><a href="/architect-vacancy.html" class="text-foot"><i
+                                        class="uil uil-angle-right-b me-1"></i> Vacancies</a></li>
+                            </ul>
+                        </div><!--end col-->
+
+
+                        <div class="col-lg-3 col-md-4 col-12 mt-4 mt-sm-0 pt-2 pt-sm-0">
+                            <h5 class="footer-head">Newsletter</h5>
+                            <p class="mt-4">Sign up and receive the latest tips via email.</p>
+                            <form>
+                                <div class="row">
+                                    <div class="col-lg-12">
+                                        <div class="foot-subscribe mb-3">
+                                            <label class="form-label">Write your email <span
+                                                    class="text-danger">*</span></label>
+                                            <div class="form-icon position-relative">
+                                                <i data-feather="mail" class="fea icon-sm icons"></i>
+                                                <input type="email" name="email" id="emailsubscribe"
+                                                       class="form-control ps-5 rounded" placeholder="Your email : "
+                                                       required>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-12">
+                                        <div class="d-grid">
+                                            <input type="submit" id="submitsubscribe" name="send"
+                                                   class="btn btn-soft-primary" value="Subscribe">
+                                        </div>
+                                    </div>
+                                </div>
+                            </form>
+                        </div><!--end col-->
+                    </div><!--end row-->
+                </div>
+            </div><!--end col-->
+        </div><!--end row-->
+    </div><!--end container-->
+
+    <div class="footer-py-30 footer-bar">
+        <div class="container text-center">
+            <div class="row align-items-center">
+                <div class="col-sm-6">
+                    <div class="text-sm-start">
+                        <p class="mb-0">©
+                            <script>document.write(new Date().getFullYear())</script>
+                            Design with <i class="mdi mdi-heart text-danger"></i> by <a
+                                    href="/" target="_blank" class="text-reset">our company</a>.
+                        </p>
+                    </div>
+                </div><!--end col-->
+
+                <div class="col-sm-6 mt-4 mt-sm-0 pt-2 pt-sm-0">
+                    <ul class="list-unstyled text-sm-end mb-0">
+                        <li class="list-inline-item"><a href="javascript:void(0)"><img
+                                src="assets/images/payments/american-ex.png" class="avatar avatar-ex-sm"
+                                title="American Express" alt=""></a></li>
+                        <li class="list-inline-item"><a href="javascript:void(0)"><img
+                                src="assets/images/payments/discover.png" class="avatar avatar-ex-sm" title="Discover"
+                                alt=""></a></li>
+                        <li class="list-inline-item"><a href="javascript:void(0)"><img
+                                src="assets/images/payments/master-card.png" class="avatar avatar-ex-sm"
+                                title="Master Card" alt=""></a></li>
+                        <li class="list-inline-item"><a href="javascript:void(0)"><img
+                                src="assets/images/payments/paypal.png" class="avatar avatar-ex-sm" title="Paypal"
+                                alt=""></a></li>
+                        <li class="list-inline-item"><a href="javascript:void(0)"><img
+                                src="assets/images/payments/visa.png" class="avatar avatar-ex-sm" title="Visa"
+                                alt=""></a></li>
+                    </ul>
+                </div><!--end col-->
+            </div><!--end row-->
+        </div><!--end container-->
+    </div>
+</footer><!--end footer-->
+<!-- Footer End -->
+
+
+<!-- Cookies Start -->
+<div class="card cookie-popup shadow rounded py-3 px-4">
+    <p class="text-muted mb-0">This website uses cookies to provide you with a great user experience. By using it, you accept our <a href="https://shreethemes.in" target="_blank" class="text-success h6">use of cookies</a></p>
+    <div class="cookie-popup-actions text-end">
+        <button><i class="uil uil-times text-dark fs-4"></i></button>
+    </div>
+</div><!--Note: Cookies Js including in plugins.init.js (path like; js/plugins.init.js) and Cookies css including in _helper.scss (path like; scss/_helper.scss)-->
+<!-- Cookies End -->
+
+
+<!-- Back to top -->
+<a href="#" onclick="topFunction()" id="back-to-top" class="back-to-top fs-5"><i data-feather="arrow-up"
+                                                                                 class="fea icon-sm icons align-middle"></i></a>
+<!-- Back to top -->
+
+<!-- JAVASCRIPT -->
+<script src="/assets/libs/bootstrap/js/bootstrap.bundle.min.js"></script>
+<script src="/assets/libs/feather-icons/feather.min.js"></script>
+<!-- SLIDER -->
+<script src="/assets/libs/tiny-slider/min/tiny-slider.js"></script>
+<!-- Lightbox -->
+<script src="/assets/libs/tobii/js/tobii.min.js"></script>
+<!-- Main Js -->
+<script src="/assets/js/plugins.init.js"></script>
+<!--Note: All init js like tiny slider, counter, countdown, maintenance, lightbox, gallery, swiper slider, aos animation etc.-->
+<script src="/assets/js/app.js"></script>
+<!--Note: All important javascript like page loader, menu, sticky menu, menu-toggler, one page menu etc. -->
+</body>
+</html>
